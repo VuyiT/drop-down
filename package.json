@@ -4,7 +4,6 @@
   "description": "Drop down Module",
   "scripts": {
     "build": "webpack --config webpack.prod.js",
-    "predev": "npm run lint",
     "dev": "webpack serve --open --config webpack.dev.js",
     "change": "git checkout gh-pages && git merge main --no-edit",
     "predeploy": "git add dist -f && git commit -m 'Deployment commit'",
