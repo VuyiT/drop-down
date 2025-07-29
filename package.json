@@ -1,8 +1,7 @@
 {
-  "name": "front-end-template",
+  "name": "drop-down",
   "version": "1.0.0",
-  "description": "This template is for JavaScript front-end projects. It includes all the necessary structure and dependancies that I need when I create front-end projects.",
-  "main": "index.js",
+  "description": "Drop down Module",
   "scripts": {
     "build": "webpack --config webpack.prod.js",
     "predev": "npm run lint",
@@ -17,20 +16,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VuyiT/front-end-template.git"
+    "url": "git+https://github.com/VuyiT/drop-down.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/VuyiT/front-end-template/issues"
+    "url": "https://github.com/VuyiT/drop-down/issues"
   },
   "husky": {
     "hooks": {
       "pre-commit": "npm run lint && npm run format" 
     }
   },
-  "homepage": "https://github.com/VuyiT/front-end-template#readme",
+  "homepage": "https://github.com/VuyiT/drop-down#readme",
   "devDependencies": {
     "@eslint/js": "^9.31.0",
     "css-loader": "^7.1.2",
